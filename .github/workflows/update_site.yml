@@ -53,7 +53,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload all generated files from the root directory
-          path: '.'
+          path: '_site'
 
   # Deployment job
   deploy:
