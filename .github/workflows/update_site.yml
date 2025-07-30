@@ -37,9 +37,6 @@ jobs:
         run: python update_commit_log.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Install quarto
-        run: wget https://quarto.org/download/latest/quarto-linux-amd64.deb
-        run: sudo dpkg -i quarto-linux-amd64.deb
       - name: Convert quarto markdown to HTML using quarto
         run: |
           quarto render  index.qmd --output index.html
