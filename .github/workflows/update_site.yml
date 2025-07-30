@@ -37,6 +37,8 @@ jobs:
         run: python update_commit_log.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Use quarto
+        uses: quarto-dev/quarto-actions/setup@v2
       - name: Convert quarto markdown to HTML using quarto
         run: |
           quarto render  index.qmd --output index.html
@@ -47,8 +49,6 @@ jobs:
         run: ls -R
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Use quarto
-        uses: quarto-dev/quarto-actions/setup@v2
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
