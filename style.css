@@ -10,3 +10,9 @@
 .navbar-brand:hover {
   cursor: default;
 }
+.site-title {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: bold;
+  color: #2c3e50;
+  letter-spacing: 2px;
+}
