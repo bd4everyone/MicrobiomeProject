@@ -16,6 +16,7 @@ format:
       - brand
     css: style.css
     toc: true
+    include-in-header: _includes/header.html
 
 
 
