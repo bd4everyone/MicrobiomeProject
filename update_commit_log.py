@@ -63,6 +63,7 @@ with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
     f.write("format: html\n")
     f.write('subtitle: "This page lists the most recent commits from all related project repositories" \n\n')
     f.write('toc: false\n')
+    f.write('sidebar: false\n')
     f.write("---\n\n")
     for commit in all_commits:
         # Format date for readability
