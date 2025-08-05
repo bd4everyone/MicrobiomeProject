@@ -1,13 +1,13 @@
 project:
   type: website
 
+website:
   navbar:
     left:
       - href: index.qmd
         text: ProjectHub
       - href: overview.qmd
         text: Overview
-      
 
 format:
   html:
@@ -17,6 +17,7 @@ format:
     css: style.css
     toc: true
     include-in-header: _includes/header.html
+
 
 
 
