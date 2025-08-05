@@ -3,6 +3,7 @@ title: "Recent Commit Activity"
 
 format: html
 subtitle: "This page lists the most recent commits from all related project repositories" 
+toc: false
 ---
 
 ### [`waldronlab/curatedMetagenomicDataAnalyses`](https://github.com/waldronlab/curatedMetagenomicDataAnalyses/commit/7b9a72dc470de4714f83c141cadccabe49762f9d)
