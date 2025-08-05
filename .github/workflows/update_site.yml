@@ -44,7 +44,7 @@ jobs:
           quarto render  index.qmd --output index.html
           quarto render  commit_log.qmd --output commit_log.html
           quarto render  projects.qmd --output projects.html
-          quarto render  about.qmd --output about.html
+          quarto render  overview.qmd --output overview.html
       - name: List files in the workspace
         run: ls -R
       - name: Setup Pages
