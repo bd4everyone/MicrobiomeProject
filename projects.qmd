@@ -7,7 +7,7 @@ format:
     page-layout: full
     df-print: paged
 resources:
-  - hide-title.css
+  - hide_title.css
     
 ---
 
