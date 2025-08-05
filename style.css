@@ -2,7 +2,7 @@
 /* Disable pointer events for site title link */
 .navbar-brand {
   pointer-events: none;
-  color: #333 !important; /* Adjust color to match your theme */
+  color: #ff0000 !important; /* Adjust color to match your theme */
   text-decoration: none !important;
 }
 
