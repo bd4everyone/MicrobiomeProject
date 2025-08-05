@@ -6,6 +6,8 @@ format:
     css: style.css
     page-layout: full
     df-print: paged
+resources:
+  - hide-title.css
     
 ---
 
