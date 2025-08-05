@@ -2,6 +2,7 @@
 title: "Recent Commit Activity"
 
 format: html
+   css: style.css
 subtitle: "This page lists the most recent commits from all related project repositories" 
 
 navbar: false
