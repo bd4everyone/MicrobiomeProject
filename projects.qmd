@@ -1,11 +1,11 @@
 ---
 title: "Projects with Topics: r01ca230551"
 subtitle: "A list of repositories discovered on GitHub. The table is sortable by clicking on headers and searchable via the search box."
-navbar: false
 format:
   html:
     page-layout: full
-    df-print: paged    
+    df-print: paged 
+    navbar: false
 ---
 
 <style>.dataframe {
