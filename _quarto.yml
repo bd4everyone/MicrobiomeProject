@@ -1,6 +1,5 @@
 project:
-  type: website
-
+  type: websit
 website:
   navbar:
     left:
@@ -14,7 +13,6 @@ format:
     theme:
       - flatly
       - brand
-    css: style.css
     toc: true
     include-in-header: _includes/header.html
 
