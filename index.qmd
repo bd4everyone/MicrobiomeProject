@@ -1,4 +1,4 @@
-This site automatically tracks a curated list of GitHub projects and their recent development activity.
+This site automatically tracks a curated list of GitHub Microbiome projects and their recent development activity.
 
 ## Navigation
 
