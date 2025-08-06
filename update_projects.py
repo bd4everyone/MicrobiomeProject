@@ -123,7 +123,7 @@ try:
             f.write('subtitle: "A list of repositories discovered on GitHub. The table is sortable by clicking on headers and searchable via the search box."\n')
             f.write("format:\n")
             f.write("  html:\n")
-            f.write("    css: style.css\n")
+            #f.write("    css: style.css\n")
             f.write("    page-layout: full\n")
             f.write("    df-print: paged\n")
             f.write("---\n\n")
