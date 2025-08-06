@@ -1,16 +1,5 @@
 /* css styles */
 
-/* Disable pointer events for site title link */
-.navbar-brand {
-  pointer-events: none;
-  color: #ff0000 !important; /* Adjust color to match your theme */
-  text-decoration: none !important;
-}
-
-/* Optional: Change cursor to default */
-.navbar-brand:hover {
-  cursor: default;
-}
 .site-title {
   font-family: 'Montserrat', Arial, sans-serif;
   font-weight: bold;
