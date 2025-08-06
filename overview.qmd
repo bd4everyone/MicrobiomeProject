@@ -1,5 +1,5 @@
 ---
-title: "Overview"
+title: "MicrobiomeProject Overview"
 ---
 
 - This proposal efficiently extracts new value from published microbiome research through three aims:
