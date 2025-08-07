@@ -1,4 +1,0 @@
-/* Hide only the Quarto site title in the navbar */
-.navbar-brand {
-  display: none !important;
-}
