@@ -61,7 +61,7 @@ with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
     f.write("---\n")
     f.write('title: "Recent Commit Activity"\n\n')
     f.write("format: html\n")
-    f.write('subtitle: "This page lists the most recent commits from all related project repositories" \n\n')
+    f.write('subtitle: "This site automatically tracks a curated list of GitHub projects funded by NIH grant [R01CA230551](https://reporter.nih.gov/project-details/9963159) from the National Cancer Institute to Levi Waldron at the CUNY Graduate School of Public Health and Health Policy" \n\n')
     f.write('toc: false\n')
     f.write('sidebar: false\n')
     f.write("---\n\n")

@@ -119,7 +119,7 @@ try:
         # Write the content to an quarto markdown file
         with open("projects.qmd", "w", encoding="utf-8") as f:
             f.write("---\n")
-            f.write('title: "MicrobiomeProjects with Topics: r01ca230551"\n')
+            f.write('title: "PublicMicrobiomeProjects with Topics: r01ca230551"\n')
             f.write('subtitle: "A list of repositories discovered on GitHub. The table is sortable by clicking on headers and searchable via the search box."\n')
             f.write("format:\n")
             f.write("  html:\n")
